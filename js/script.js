@@ -136,5 +136,8 @@ for(let i = 0;i<learn.length;i++){
     learn[i].addEventListener('click',()=>{
         const benefitsText = document.querySelectorAll('.benefits__text')
         benefitsText[i].classList.toggle('showAllText')
+        if(benefitsText[i].classList.contains('showAllText')){
+            learn[i].innerHTML = 'CLOSE';
+        } else learn[i].innerHTML = 'LEARN MORE';
     })
 }
