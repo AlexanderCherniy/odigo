@@ -56,11 +56,11 @@
         color: $blue;
         cursor: pointer;
         transition: opacity 0.3s ease;
+        display: inline-block;
         &:hover{
             opacity: 0.6;
         }
-        & svg {
-            margin-left: 26px;
+        & img {
             position: relative;
             top: -2px;
         }
