@@ -1,5 +1,5 @@
 .benefits {
-    padding: 193px 15px 112px 15px;
+    padding: 94px 15px 112px 15px;
     background-color: $white;
     max-width: $containerWidth;
     margin: 0 auto;
@@ -25,6 +25,8 @@
         justify-items: center;
     }
 
+    &__item {
+    }
 
     &__img {
         padding-bottom: 37px;
@@ -48,19 +50,30 @@
         font-size: 1.6rem;
         line-height: 2.4rem;
         color: black;
-        padding-bottom: 39px;
+        margin-bottom: 39px;
+        overflow: hidden;
+        max-height: 75px;
+        transition: 0.5s all ease;
+        &.showAllText{
+            max-height: 500px;
+        }
     }
     &__learn {
         font-size: 1.6rem;
         line-height: 2.4rem;
         color: $blue;
         cursor: pointer;
-        transition: opacity 0.3s ease;
-        display: inline-block;
+        transition: all ease 0.3s;
         &:hover{
             opacity: 0.6;
+            & svg {
+                transition: all ease 0.3s;
+                transform: translate(26px,0);
+                position: relative;
+            }    
         }
-        & img {
+        & svg {
+            transform: translate(13px,0);
             position: relative;
             top: -2px;
         }

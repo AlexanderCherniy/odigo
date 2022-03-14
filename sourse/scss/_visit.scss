@@ -131,6 +131,10 @@
         line-height: 1.9rem;
         color: $white;
         cursor: pointer;
+        transition: all ease 0.3s;
+        &:hover{
+            background-color: #006efebb;
+        }
     }
 }
 

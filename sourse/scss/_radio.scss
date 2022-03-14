@@ -3,6 +3,7 @@
         display: flex;
         flex-wrap: wrap;
         gap: 60px;
+        margin-bottom: 150px;
     }
     
     &__form {
@@ -39,8 +40,18 @@
         input::-webkit-input-placeholder { color: $white; }
     }
     }
+    @media(max-width:1300px){
+        .discover{
+            &__forms{
+           margin-bottom: 175px; 
+            }
+        }
+    }
     @media(max-width:572px){
         .discover{
+            &__forms{
+                margin-bottom: 50px;
+            }
             &__form{
                 max-width: none;
             }

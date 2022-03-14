@@ -100,9 +100,20 @@
     line-height: 2.4rem;
     color: $blue;
     cursor: pointer;
-        & svg{
-            margin-left: 26px;
-        }
+    transition: all ease 0.3s;
+    &:hover{
+        opacity: 0.6;
+        & img {
+            transition: all ease 0.3s;
+            transform: translate(26px,0);
+            position: relative;
+        }    
+    }
+    & img {
+        transform: translate(13px,0);
+        position: relative;
+        top: 6px;
+    }
     }
 }
 @media(max-width:$breakpoint768){

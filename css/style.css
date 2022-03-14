@@ -118,18 +118,18 @@
 .trip .trip-view:hover {
   opacity: 0.6;
 }
-.trip .trip-view:hover svg {
+.trip .trip-view:hover img {
   -webkit-transition: all ease 0.3s;
   transition: all ease 0.3s;
   -webkit-transform: translate(26px, 0);
           transform: translate(26px, 0);
   position: relative;
 }
-.trip .trip-view svg {
+.trip .trip-view img {
   -webkit-transform: translate(13px, 0);
           transform: translate(13px, 0);
   position: relative;
-  top: -2px;
+  top: 9px;
 }
 
 @media (max-width: 767.98px) {
@@ -270,18 +270,18 @@
 .benefits__learn:hover {
   opacity: 0.6;
 }
-.benefits__learn:hover svg {
+.benefits__learn:hover img {
   -webkit-transition: all ease 0.3s;
   transition: all ease 0.3s;
   -webkit-transform: translate(26px, 0);
           transform: translate(26px, 0);
   position: relative;
 }
-.benefits__learn svg {
+.benefits__learn img {
   -webkit-transform: translate(13px, 0);
-          transform: translate(13px, 0);
+  transform: translate(13px, 0);
   position: relative;
-  top: -2px;
+  top: 8px;
 }
 
 @media (max-width: 991.98px) {

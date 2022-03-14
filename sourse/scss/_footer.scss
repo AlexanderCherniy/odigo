@@ -1,7 +1,17 @@
 .footer {
     padding: 118px 15px;
     background-color: $backgroundBlack;
-
+    overflow: hidden;
+    &__img {
+        margin-bottom: 25px;
+        transform: translate(-50%,0);
+        opacity: 0;
+        transition: all ease 0.8s 0.2s;
+        &.active{
+            transform: translate(0%,0);
+            opacity: 1; 
+        }
+    }
     &__container {
         max-width: $containerWidth;
         margin: 0 auto;
@@ -13,13 +23,18 @@
         flex-wrap: wrap;
     }
 
-    &__img {}
-
     &__links {
         display: grid;
         grid-template-columns: repeat(3, minmax(100px, 1fr));
         grid-template-rows: 1fr;
         gap: 139.5px;
+        transform: translate(50%,0);
+        opacity: 0;
+        transition: all ease 0.8s 0.2s;
+        &.active{
+            transform: translate(0%,0);
+            opacity: 1; 
+        }
     }
 
     &__link {}

@@ -35,11 +35,19 @@
         color: $blue;
         cursor: pointer;
         transition: opacity 0.3s ease;
+        transition: all ease 0.3s;
         &:hover{
             opacity: 0.6;
+            & svg {
+                transition: all ease 0.3s;
+                transform: translate(26px,0);
+                position: relative;
+            }    
         }
-        & svg{
-            margin-left: 27px;
+        & svg {
+            transform: translate(13px,0);
+            position: relative;
+            top: -2px;
         }
     }
 
@@ -72,12 +80,19 @@
         line-height: 2.4rem;
         color: $blue;
         cursor: pointer;
-        transition: opacity 0.3s ease;
+        transition: all ease 0.3s;
         &:hover{
             opacity: 0.6;
+            & svg {
+                transition: all ease 0.3s;
+                transform: translate(26px,0);
+                position: relative;
+            }    
         }
-        & svg{
-            margin-left: 27px;
+        & svg {
+            transform: translate(13px,0);
+            position: relative;
+            top: -2px;
         }
     }
 }
