@@ -11,7 +11,7 @@
 
 <body>
     <div class="wrapper">
-        <header class="header">
+        <header class="header anim-items lock-padding">
             <div class="header__container">
                 <nav class="header__menu">
                     <a class="headerlist__logo">
@@ -28,7 +28,7 @@
                         <a href="##">
                             <li class="headerlist__li">Videos</li>
                         </a>
-                        <a href="##">
+                        <a class="popup-link" href="#popup">
                             <li class="headerlist__li">Sign in</li>
                         </a>
                     </ul>
@@ -60,10 +60,10 @@
                     <div class="benefits__items">
                         <div class="benefits__item">
                             <div class="benefits__img">
-                                <img src="img/WebP_img/Icon1-min.png" alt="">
+                                <img class="img-load" src="" data="img/WebP_img/Icon1-min.png" alt="">
                             </div>
                             <h3 class="benefits__title">Welcome to Odigo!</h3>
-                            <div class="benefits__text">Jump off balcony, onto stranger's head. Chase ball of string
+                            <div class="benefits__text">Jump off balcony, onto stranger'Jump off balcony, onto stranger'Jump off balcony, onto stranger'Jump off balcony, onto stranger'Jump off balcony, onto stranger's head. Chase ball of string
                                 hide when guests come over.</div>
                             <div class="benefits__learn">LEARN MORE <svg width="33" height="8" viewBox="0 0 33 8"
                                     fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -73,10 +73,10 @@
                         </div>
                         <div class="benefits__item">
                             <div class="benefits__img">
-                                <img src="img/WebP_img/Icon2-min.png" alt="">
+                                <img class="img-load" src="" data="img/WebP_img/Icon2-min.png" alt="">
                             </div>
                             <h3 class="benefits__title">Your Personal Japan Guide</h3>
-                            <div class="benefits__text">Jump off balcony, onto stranger's head. Chase ball of string
+                            <div class="benefits__text">Jump off balcony, onto stranger'Jump off balcony, onto stranger'Jump off balcony, onto stranger'Jump off balcony, onto stranger'Jump off balcony, onto stranger's head. Chase ball of string
                                 hide when guests come over.</div>
                             <div class="benefits__learn">LEARN MORE <svg width="33" height="8" viewBox="0 0 33 8"
                                     fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -86,10 +86,10 @@
                         </div>
                         <div class="benefits__item">
                             <div class="benefits__img">
-                                <img src="img/WebP_img/Icon3-min.png" alt="">
+                                <img class="img-load" src="" data="img/WebP_img/Icon3-min.png" alt="">
                             </div>
                             <h3 class="benefits__title">Promoting Local Businesses</h3>
-                            <div class="benefits__text">Jump off balcony, onto stranger's head. Chase ball of string
+                            <div class="benefits__text">Jump off balcony, onto stranger'Jump off balcony, onto stranger'Jump off balcony, onto stranger'Jump off balcony, onto stranger'Jump off balcony, onto stranger's head. Chase ball of string
                                 hide when guests come over.</div>
                             <div class="benefits__learn">LEARN MORE <svg width="33" height="8" viewBox="0 0 33 8"
                                     fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -113,7 +113,7 @@
                     <div class="trip__cards">
                         <figure class="trip__card trip__card-size-lg">
                             <img src="img/jpg/Objectimage1-min.jpg" alt="Mount Fuji"
-                                class="trip__card-pic trip__card-pic-size-lg">
+                                class="trip__card-pic trip__card-pic-size-lg ">
                             <figcaption class="trip__card-title">
                                 Mount Fuji
                             </figcaption>
@@ -121,15 +121,15 @@
                         </figure>
                         <figure class="trip__card trip__card-size-lg">
                             <img src="img/jpg/Objectimage2-min.jpg" alt="Kyoto"
-                                class="trip__card-pic trip__card-pic-size-lg">
+                                class="trip__card-pic trip__card-pic-size-lg ">
                             <figcaption class="trip__card-title">
                                 Kyoto
                             </figcaption>
                             <a href="##" class="trip__card-link"></a>
                         </figure>
                         <figure class="trip__card trip__card-size-sm">
-                            <img src="img/jpg/Objectimage3-min.jpg" alt="Tokyo"
-                                class="trip__card-pic trip__card-pic-size-sm">
+                            <img src="img/jpg/Objectimage3-min.jpg"  alt="Tokyo"
+                                class="trip__card-pic trip__card-pic-size-sm ">
                             <figcaption class="trip__card-title">
                                 Tokyo
                             </figcaption>
@@ -137,7 +137,7 @@
                         </figure>
                         <figure class="trip__card trip__card-size-sm">
                             <img src="img/jpg/Objectimage4-min.jpg" alt="Niigata"
-                                class="trip__card-pic trip__card-pic-size-sm">
+                                class="trip__card-pic trip__card-pic-size-sm ">
                             <figcaption class="trip__card-title">
                                 Niigata
                             </figcaption>
@@ -145,7 +145,7 @@
                         </figure>
                         <figure class="trip__card trip__card-size-sm">
                             <img src="img/jpg/Objectimage5-min.jpg" alt="Sapporo"
-                                class="trip__card-pic trip__card-pic-size-sm">
+                                class="trip__card-pic trip__card-pic-size-sm ">
                             <figcaption class="trip__card-title">
                                 Sapporo
                             </figcaption>
@@ -311,17 +311,18 @@
                     </div>
                 </div>
             </section>
+            <!-- Реализуй также подгрузку видео -->
             <section class="videos">
                 <div class="videos__items">
                     <div class="videos__item"></div>
-                    <iframe class="videos__iframe" src="https://www.youtube.com/embed/IuTDuvYr7f0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="videos__iframe img-load" src="" data="https://www.youtube.com/embed/IuTDuvYr7f0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </section>
         </main>
         <footer class="footer">
             <div class="footer__container">
                 <div class="footer__body">
-                    <div class="footer__img">
+                    <div class="footer__img anim-items">
                         <svg width="170" height="64" viewBox="0 0 170 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M168.874 24.6571C168.113 22.2261 167.053 20.0266 165.563 18.1082C164.074 16.1899 162.253 14.8007 160.101 13.7588C159.488 13.4281 158.743 13.0973 158.114 12.932C158.114 12.932 157.882 12.7997 157.667 12.7997C157.568 12.7997 157.452 12.7997 157.336 12.6839C157.253 12.6839 157.137 12.6839 157.137 12.5681L155.565 12.2374C154.406 12.0389 152.916 11.9397 151.194 12.0389C148.645 12.1547 146.394 12.7004 144.407 13.6265C142.255 14.6849 140.434 16.1733 138.944 17.9594C137.454 19.8777 136.395 21.978 135.633 24.5248C134.905 26.9393 134.574 29.6845 134.574 32.4298C134.574 35.2908 134.905 37.9368 135.65 40.3678C136.411 42.7988 137.587 44.9983 138.961 46.8175C140.037 48.0909 141.196 49.1327 142.603 50.0919C143.232 50.5219 143.761 50.8361 144.424 51.1503H144.506C144.506 51.1503 144.606 51.1503 144.606 51.2495C144.677 51.2495 144.71 51.2828 144.74 51.3136C144.767 51.3404 144.791 51.3653 144.838 51.3653C145.914 51.8945 147.089 52.1922 148.364 52.4237C152.088 53.1513 155.283 52.6387 155.283 52.6387C156.988 52.4237 158.594 51.8945 160.084 51.2495C162.319 50.1911 164.123 48.7193 165.63 46.9167C167.12 45.1306 168.179 42.8981 168.941 40.467C169.669 38.036 170 35.39 170 32.529C170 29.6845 169.57 27.0385 168.924 24.5909L168.874 24.6571ZM143.927 26.9724C144.357 25.3186 144.887 23.7145 145.632 22.4411C146.377 21.1842 147.337 20.1258 148.397 19.3981C149.473 18.654 150.747 18.2405 152.121 18.2405C153.512 18.2405 154.687 18.5382 155.763 19.2824C156.823 20.01 157.667 20.9361 158.412 22.1269C159.157 23.4002 159.703 24.7729 160.117 26.4597C160.564 28.1465 160.779 29.8499 160.779 31.7517V32.3801C160.779 34.282 160.564 36.1838 160.25 37.8706C159.819 39.574 159.289 41.0458 158.544 42.3358C157.8 43.5926 156.839 44.5353 155.763 45.2795C154.704 46.0237 153.446 46.3379 152.039 46.3379C150.648 46.3379 149.39 46.0071 148.314 45.2795C147.238 44.5353 146.278 43.5926 145.533 42.3027C144.771 41.0458 144.242 39.574 143.811 37.8706C143.397 36.1838 143.281 34.282 143.281 32.3801C143.397 30.561 143.613 28.6757 143.944 26.9889L143.927 26.9724ZM120.569 53.0025L116.43 57.7488L116 58.1788L116.43 64H122.82L129.541 56.4919V32.6117L129.343 30.7925L120.569 35.3238V53.0025Z" fill="white"/>
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M66.6959 10.8613L62.5476 6.24851L62 5.85593L62.4314 0L68.8199 0.0981441L75.6896 7.52438V31.6842L75.4905 33.0255L66.6959 28.4454V10.8613ZM125.57 17.3551C127.063 19.2526 128.125 21.4281 128.888 23.8327L128.921 23.7672C129.668 26.1881 130 28.8053 130 31.6187C130 34.4486 129.668 37.0657 128.938 39.4703C128.175 41.8748 127.113 44.083 125.619 45.8496C124.126 47.6326 122.301 49.0884 120.061 50.1353C118.567 50.7732 116.958 51.2966 115.248 51.5093C115.248 51.5093 112.046 52.0164 108.312 51.2966C107.035 51.0676 105.857 50.7732 104.795 50.2498C104.734 50.2498 104.705 50.2189 104.677 50.1892C104.652 50.1617 104.627 50.1353 104.579 50.1353C104.579 50.0371 104.463 50.0371 104.463 50.0371H104.38C103.716 49.7263 103.185 49.4155 102.554 48.9902C101.161 48.0415 99.9824 47.011 98.9039 45.7515C97.5266 43.9522 96.3485 41.7767 95.5852 39.3721C94.8551 36.9676 94.5232 34.3504 94.5232 31.5206C94.5232 28.8053 94.8385 26.09 95.5686 23.7018C96.3319 21.1828 97.3939 19.1054 98.8873 17.2079C100.381 15.4413 102.206 13.9692 104.363 12.9223C106.354 12.0063 108.611 11.4665 111.166 11.352C112.892 11.2539 114.386 11.352 115.547 11.5483L117.123 11.8754C117.123 11.9899 117.24 11.9899 117.323 11.9899C117.455 12.1044 117.555 12.1044 117.654 12.1044C117.87 12.1044 118.102 12.2353 118.102 12.2353C118.733 12.3989 119.48 12.726 120.094 13.0532C122.251 14.0837 124.076 15.4577 125.57 17.3551ZM105.691 21.6408C104.944 22.9003 104.413 24.4869 103.998 26.1227L104.015 26.139C103.589 27.7863 103.47 29.6249 103.355 31.4029L103.351 31.4715C103.351 33.3526 103.45 35.2337 103.882 36.9022C104.313 38.587 104.844 40.0428 105.591 41.2859C106.338 42.5618 107.3 43.4942 108.362 44.2303C109.441 44.95 110.718 45.2771 112.129 45.2771C113.506 45.2771 114.8 44.9663 115.862 44.2303C116.924 43.4942 117.887 42.5618 118.617 41.3187C119.364 40.0428 119.911 38.587 120.326 36.9022C120.658 35.2337 120.89 33.3526 120.89 31.4715V30.85C120.89 28.9689 120.658 27.2841 120.226 25.6156C119.795 23.9472 119.264 22.5895 118.517 21.33C117.771 20.1522 116.908 19.2362 115.862 18.5165C114.784 17.7804 113.606 17.486 112.212 17.486C110.801 17.486 109.54 17.8949 108.478 18.631C107.4 19.3507 106.437 20.3976 105.691 21.6408ZM80.4685 11.5156H89.429V52H80.4685V11.5156Z" fill="white"/>
@@ -329,7 +330,7 @@
                             </svg>
                             
                     </div>
-                    <div class="footer__links">
+                    <div class="footer__links anim-items">
                         <div class="footer__link">
                             <div class="link-title">Company</div>
                             <div class="link__ul-body">
@@ -386,7 +387,22 @@
             </div>
         </footer>
     </div>
-    <script src="js/script.js"></script>
+    <div id="popup" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a id="close" href="##" class="popup__close popup__closed"></a>
+                <h2 class="popup__title">Sign In</h2>
+                <div class="popup__text">Log in to your account or go through a quick registration!</div>
+                <div class="popup__forms">
+                    <input placeholder="Login" class="popup__form" type="text">
+                    <input placeholder="Password" class="popup__form" type="password">
+                </div>
+                <button type="submit" class="popup__button popup__closed">SEND</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js" defer></script>
+    <script src="js/loadImges.js" defer></script>
+    <script src="js/popup.js" defer></script>
 </body>
-
 </html>

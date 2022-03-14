@@ -94,6 +94,47 @@ document.querySelectorAll('.headerlist__li')[1].addEventListener('mousedown', ()
 document.querySelectorAll('.headerlist__li')[2].addEventListener('mousedown', () => {
     linksHeader('.headerlist__li', 2, '.videos')
 })
-document.querySelectorAll('.headerlist__li')[3].addEventListener('mousedown', () => {
-    linksHeader('.headerlist__li', 3, '.projects')
-});
+
+
+//animations
+
+
+const animItems = document.querySelectorAll('.anim-items');
+if(animItems.length > 0){
+    window.addEventListener('scroll',animOnScroll);
+    function animOnScroll(){
+        for(let i = 0;i<animItems.length;i++){
+            const animItemHeight = animItems[i].offsetHeight;
+            const animItemOffset = offset(animItems[i]).top;
+            let animItemStart = 4;
+
+            let animItemPoint = window.innerHeight - animItemHeight / animItemStart;
+            if(animItemHeight > window.innerHeight){
+                animItemPoint = window.innerHeight - window.innerHeight / animItemStart;
+            }
+            if((pageYOffset > animItemOffset - animItemPoint) && pageYOffset < (animItemOffset + animItemHeight)){
+                animItems[i].classList.add('active');
+            } else animItems[i].classList.remove('active');
+        };
+    };
+    setTimeout(()=>{
+        animOnScroll();
+    },300);
+    animOnScroll();
+    function offset(element) {
+        const rect = element.getBoundingClientRect(),
+        scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+        scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        return {top:rect.top + scrollTop,left:rect.left + scrollLeft}
+    }
+}
+
+
+//showAllText
+const learn = document.querySelectorAll('.benefits__learn')
+for(let i = 0;i<learn.length;i++){
+    learn[i].addEventListener('click',()=>{
+        const benefitsText = document.querySelectorAll('.benefits__text')
+        benefitsText[i].classList.toggle('showAllText')
+    })
+}
