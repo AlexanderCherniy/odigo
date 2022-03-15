@@ -1,5 +1,5 @@
 'use strict';
- // js
+ // js script
 (function (){
 let body = document.getElementsByTagName('body')[0] //заблокировать скролл когда меню работает
 let menu = document.getElementById('menu')
