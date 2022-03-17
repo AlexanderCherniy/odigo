@@ -1,3 +1,4 @@
+//app
 (function (){
 function showInfo(num,BenefitsTitle,BenefitsText){
     document.querySelectorAll('.benefits__title')[num].innerHTML += `${BenefitsTitle}`;
