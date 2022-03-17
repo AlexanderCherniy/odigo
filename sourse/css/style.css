@@ -990,13 +990,13 @@ html {
   margin-left: 10px;
 }
 .visit__text {
+  -webkit-line-clamp:3;display: -webkit-box;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;
   max-width: 362px;
   font-size: 1.6rem;
   line-height: 2.4rem;
   color: #102746;
   margin-bottom: 31px;
   /* see more */
-  -webkit-line-clamp:3;display: -webkit-box;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;
 }
 .visit__see {
   margin-top: auto;
