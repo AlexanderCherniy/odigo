@@ -119,6 +119,11 @@
         line-height: 2.4rem;
         color: #102746;
         margin-bottom: 31px;
+        -webkit-line-clamp:3;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     &__see {

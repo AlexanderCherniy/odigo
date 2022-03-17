@@ -129,7 +129,7 @@
   -webkit-transform: translate(13px, 0);
           transform: translate(13px, 0);
   position: relative;
-  top: 9px;
+  top: 6px;
 }
 
 @media (max-width: 767.98px) {
@@ -153,7 +153,7 @@
 .discover__container {
   max-width: 1060px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 16px;
 }
 .discover_title {
   font-weight: 500;
@@ -192,7 +192,7 @@
   }
 }
 .benefits {
-  padding: 93px 15px 112px 15px;
+  padding: 94px 15px 112px 15px;
   background-color: #fff;
   max-width: 1262px;
   margin: 0 auto;
@@ -270,18 +270,18 @@
 .benefits__learn:hover {
   opacity: 0.6;
 }
-.benefits__learn:hover img {
+.benefits__learn:hover svg {
   -webkit-transition: all ease 0.3s;
   transition: all ease 0.3s;
   -webkit-transform: translate(26px, 0);
           transform: translate(26px, 0);
   position: relative;
 }
-.benefits__learn img {
+.benefits__learn svg {
   -webkit-transform: translate(13px, 0);
-  transform: translate(13px, 0);
+          transform: translate(13px, 0);
   position: relative;
-  top: 8px;
+  top: -2px;
 }
 
 @media (max-width: 991.98px) {
@@ -995,7 +995,7 @@ html {
   line-height: 2.4rem;
   color: #102746;
   margin-bottom: 31px;
-  -webkit-line-clamp:3;
+  -webkit-line-clamp: 3;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
