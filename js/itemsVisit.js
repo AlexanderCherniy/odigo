@@ -1,5 +1,5 @@
 let itemVisit1 = {
-    'title':"NAGOYA",
+    'title':"NAGOYA.",
     'text':"Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this.",
 }
 let itemVisit2 = {

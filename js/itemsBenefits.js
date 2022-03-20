@@ -1,6 +1,6 @@
 let itemBeneits1 = {
     'title':"Welcome to Odigo",
-    'text':"Jump off balcony, onto stranger'Jump off balcony, onto stranger'Jump off balcony, onto stranger'Jump off balcony, onto stranger'Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.",
+    'text':"Jump off balcony, onto stranger'Jump off balcony, onto stranger'Jump off balcony, onto stranger'Jump off balcony, onto stranger'Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over...",
 }
 let itemBeneits2 = {
     'title':"Your Personal Japan Guide",
