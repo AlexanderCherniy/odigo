@@ -90,21 +90,3 @@ function bodyLock() {  //блокируем отсупы чтобы не был�
         popupClose(popupActive);
     }
  });
-
-
-class User{
-    constructor(model){
-        this.model = model;
-    }
-}
-let itog = new User(887)
-console.log(itog);
-class megaUser extends User{
-    constructor(leq,model){
-        super(model);
-        this.leq = leq;
-    }
-}
-
-let itog2 = new megaUser(7767,645)
-console.log(itog2);
